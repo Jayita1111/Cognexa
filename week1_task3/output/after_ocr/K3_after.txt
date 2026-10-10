@@ -1,0 +1,130 @@
+3. If a change is declared, then (a) the point 7;, at time
+t-changeReset Window is marked as a change point,
+{b) all points after it are unmarked (they are not out-
+liers anymore), and (c) the model estimation is started
+afresh from p,.
+
+Table 1. Parameters for deciding outliers‘changes. Pa-
+rameters with * are user—provided.
+
+mu Detection Window
+
+W kast minDexcnonWindow pois mwa arrive in
+fhe stream befare a pat & decbred as an out
+her'clange pomt.
+
+munError Thresivis” the minimum crrar necessary to trigger outlier test:
+
+mg
+tie minum aor @ireshold above which a paintis
+fhe mmimum distance between cons cule change
+poims, This parameter controls the ganubrity af
+fhe changes with resect to time,
+fhe window size far outher detection. {1 control the
+mumber af recent points used m dec ading whe ther a
+newly astived poirt is an outhcr,
+is the median of the estimated errors of the paints
+within the interval [f-wiadswSce.t| that have not
+been masked as outhers. and it depends on f.
+an oullics sensitivity factor in comparing the <r
+ror calimate for a poim wah the errarThreshold. It
+samtrals the rate of false positives negaives
+is a semsitivity factor for claiming an error overshoot
+with respect to the crrarThresboid
+is the mumber of points within the interval [t
+wiadowSize#) fiat have estimated error larger tan
+avershooSenuaviy & erorThrestold.
+fie maumum number of error overshoots allowed
+far an autlicr (if there 190 many outliers in the win-
+dawSize. then testing far a change point is dane).
+5 fhe minimum number of ouflicrs in the among
+fhe last changeOw her Window points in required for
+dechaing a change point
+B fhe maximum percemage change of the param-
+eters of 6(8° with respect to the parameters of
+theta(t
+
+maxErrmrTure shies:
+
+mini hangy Disane
+
+windowSize*
+
+errurThreshald
+
+auterSensuieay
+
+merhnaSensiviy®
+
+errovOWwersinats
+
+Toho
+maxErrrOver dinats
+
+change Ouihie Window
+chanyeOuihe Count
+
+cocfictentGrarn
+
+garaThire sho: a fhreshald for the cocthicenmiGam that far ex change
+detection
+chaageResci Window the lag time in detecting achange, Thu contol the
+
+localization af the change point
+
+3.1) The Naive Approach
+
+In this approach the RLS algorithm is used to compute
+the model parameters over al] the data seen so far (unre-
+stricted window).
+
+Initially (for the first few points) this approach may be
+successful in detecting outliers‘change points. As more
+points come in, RLS estimates the model parameters con-
+sidering all the points seen so far, and thus it gives equal
+weight to all the points in the unrestricted window. As a
+result, the changes in the dynamics of the system may be
+hidden by the dominance of the older points. Figure 3.1 il-
+lustrates this phenomenon. As a result RLS by itself is not
+adequate. The problem is due to the fact that RLS tries to
+
+remember all the data points. Instead, if we can make the
+system forget older points, we should be able to detect out-
+liers‘change points better.
+
+ic} (d)
+
+Figure 1. Effect of older points in RLS—based
+outlier/change point detection. (a) saw-tooth
+data stream. (b) slopes of the line segments
+in the saw-tooth. (c) slope estimate using
+
+RLS. (d) slope estimate using a moving win-
+dow of size 5.
+
+3.2 Moving Window Approach
+
+One approach to forget older points is to have a moving
+window over the timeseries’ data stream and estimate the
+model over this window. At the same time, we would like
+to mainiam the efficiency of the RLS algorithm.
+
+3.2.1 Using Forward-Backward RLS
+
+One method to achieve this would be to derive a backward
+Tecursion and altemately use the forward and backward re-
+cursions as follows. Suppose the current window spans
+[4s,--- s4y]. When a new data point comes in at /,, 11, We
+use the forward recursion (equations 7-9) to derive a model
+for the points in [4,,... 5 é+ ty a1]. Then, we use the back-
+ward recursion to remove the effects of the point at 4, and
+thus get a model for the points in [fz,... . tis titi.
+
+In what follows, we derive the backward recursion for
+RLS. Suppose we have #24 and P,j4 over certain data S,
+where
+
+-1
+Fata — {> kyo") (10)
+
+kes

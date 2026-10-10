@@ -1,0 +1,40 @@
+1-2
+
+What I have written down is a diagram of a chemical reaction network.
+It indicates that a mlecule of A can decompose into two molecules of B,
+that two molecules of B can react to form one molecule of A, that a
+molecule of A can react with a molecule of C to form a mlecule of D,
+and so on.
+
+Now suppose that I throw various amounts of my species into a pot.
+I am going to presume that the pot is stirred constantly so that its
+contents remain spatially homogeneous for all time, and I shall also
+suppose that the contents of the pot are forever maintained at fixed
+temperature and total volume. This, of. course, is not to say that the
+chemical composition of the mixture within the pot will remain constant
+in time, for the occurrence of chemical reactions will serve to consume
+certain especies and generate others. In fact it is the temporal evolution
+of the composition that we wish to investigate. With this in mind we
+denote the (instantaneous) values of the molar concentrations of the
+species by c(t), calt), cpt), ep(t) and opt), and we abbreviate this
+list of numbers by the "composition vector” c(t).*- Thus the picture we
+are thinking about, at least for the moment, looks something like that
+shown in Figure 1.1.7
+
+—
+A molar concentration, say Ca, specifies the number of A molecules per
+unit volume of mixture. More precisely, cy is the uumber of A mlecules
+per uit volume divided by Avogardro's number, 6.023 x1023, We shall be
+somewhat more precise about what we mean ‘by the "composition vector” in
+Section 1.5.
+
+time reactor depicted in Figure 1.1 is closed with respect to the exchange
+
+of matter with ite environment. Our focus on such reactors is temporary
+and is merely intended to {illustrate in a simple context how cheaists and
+engineers formulate differential equations based upon a set of reactions
+believed to approximate the true chemistry. We will begin to consider
+“open” reactors in the next lecture (Section 2.E). There we shal! indicate
+how open reactors can be modelled in terms of reaction networks and how the
+appropriate differential equations, like those for closed reactors, bear a
+definite relationship to reaction network structure.

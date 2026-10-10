@@ -1,0 +1,47 @@
+1-8
+
+We would have understood one model chemical system fairly well, at least
+with respect to certain qualitative issues.
+
+There are, however, thousands of distinct reaction networks that
+might, on one occasion or another, command our attention. Each has its
+own system of differential equations, perhaps more complicated by far
+than the system we have been considering. How, then, are we to proceed?
+It is clear that we cannot rely forever on purely ad hoc studies of what-
+ever systems might present themselves for examination. Even if we cast
+aside the long-term enormity of such an undertaking, there are still two
+problems that must be faced in the short run. First, questions of the
+kind we have posed will, for the most part, be confronted by engineers
+and chemists, not mathematicians. Second, it is by no means clear that
+
+‘mathematicians, even the most expert, are currently in a position to
+provide much help. The fact is that even moderately large systems of
+nonlinear differential equations — in particular polynomial systems like
+those displayed in (1.7) — remain poorly understood” in general.
+
+It seems to me that what is required is a rather broad-based theory
+
+of those systems of differential equations that derive from reaction net-
+
+works, a theory which would in some sense cuts across the fine details
+of individual problems to provide qualitative information about Large
+classes of systems all at once. Moreover, we would like the results of
+
+such_a theory to be of the kind that engineers and chemists can use
+
+easily in addressing questions like those we have posed.
+
+This seems like a lot to ask, and I should try to explain why a
+theory of the kind I have in mind should even be possible in principle.
+Although we shall also be interested in the more general situation,
+let me temporarily restrict my attention to reaction networks endowed
+with mass action kinetics. Thinking back to the source of the system
+(1.7), we recall that it derived in a rather orderly way from the
+
+network (1.6). In fact, we knew how to write down the appropriate
+
+*
+
+Consider, for example, the remarkable complexity of the seemingly
+innocuous Lorenz system [11], which is composed of three polynomial
+ordinary differential equations in three variables.
