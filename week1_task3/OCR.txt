@@ -1,0 +1,7 @@
+
+OCR (Optical Character Recognition) is a technology used to recognize and extract text 
+from scanned documents, images, photographs, and image-based PDFs and convert it into 
+machine-readable digital text. It is used to make scanned information searchable, 
+editable, and easier to store, process, and analyze. In this project, OCR is applied 
+to representative scanned documents to extract their text and analyze recognition errors 
+caused by factors such as low resolution, skew, equations, tables, diagrams, and handwriting.

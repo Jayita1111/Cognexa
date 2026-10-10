@@ -1,0 +1,10 @@
+|File| Preferably                 |
+|----|----------------------------|
+| K1 | Clear scanned/printed PDF  |
+| K2 | Low-quality or noisy scan  |
+| K3 | Tables/equations/diagrams  |
+| C1 | Handwritten notes          |
+| C2 | Printed scanned notes      |
+| C3 | Notes with diagrams/tables |
+
+Handwritten is being avoided 
