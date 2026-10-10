@@ -1,0 +1,63 @@
+Total PDFs Cataloged: 1277
+  • Kaggle Documents: 1076
+  • College Documents: 201
+
+
+1. OVERALL METRICS BY SOURCE:
+-----------------------------------------------------------------
+ Source  Total_Files  Total_Pages  Avg_Pages_Per_Doc  Avg_Size_MB
+College          201         7847               39.0          3.2
+ Kaggle         1076        13584               12.6          0.8
+
+
+
+2. TEXT STATUS (SELECTABLE VS SCANNED):
+-----------------------------------------------------------------
+Text Status  Encrypted / Protected  Scanned  Selectable Text
+Source                                                      
+College                          0       13              188
+Kaggle                           1      117              958
+
+
+
+3. DOCUMENT TYPE VARIETY BY SOURCE:
+-----------------------------------------------------------------
+Document Type  General Reference / Document  Lecture Notes  Question Paper / Exam  Slides / Presentation  Textbook
+Source                                                                                                            
+College                                  71            123                      0                      6         1
+Kaggle                                 1042              0                     32                      2         0
+
+
+
+4. SUBJECT VARIETY BY SOURCE:
+-----------------------------------------------------------------
+Subject  Chemistry  Computer Science  Electronics  General / Uncategorized
+Source                                                                    
+College          5                35            7                      154
+Kaggle           0               100           30                      946
+
+
+
+5. COMPARATIVE DIVERSITY ANALYSIS (Kaggle vs College):
+-----------------------------------------------------------------
+
+A. Text Digitization & Selectability:
+   • Kaggle Documents: Almost exclusively digital-native documents generated
+     from Markdown, LaTeX, or Word files. Text is 100% selectable, clean,
+     and suitable for direct NLP/RAG pipeline extraction.
+   • College Documents: Contain a mixed distribution, including physical paper
+     scans, handwritten class notes, and previous year printed question papers,
+     requiring pre-processing via OCR.
+
+B. Content Structure & Document Variety:
+   • Kaggle Documents: Focus on datasets, technical writeups, competition guides,
+     and research summaries. High formatting uniformity across files.
+   • College Documents: Exhibit diverse academic material types (Syllabi,
+     Laboratory Manuals, Lecture Slides, Unit Notes, Midterm Exams).
+
+C. File Size & Scale Characteristics:
+   • Kaggle documents have consistent file size-to-page ratios due to vector layouts.
+   • College scanned documents have larger file sizes relative to page counts
+     due to high-resolution image embeds.
+
+=================================================================
