@@ -1,0 +1,44 @@
+{|i)}, this state |?) is also an eigenvalue of B, B |i) = B; |i), which means that in that state
+the observable B has definite value B;. Thus, any allowed value of A uniquely determines
+
+the value of B,
+
+A; >i > Bi, (152)
+
+which makes B a function of A.
+
+Now, suppose A has a degenerate spectrum. Since A is Hermitian, it must have an
+basis of eigenstates, but now there may be several independent eigenstates for the same
+eigenvalue. Let’s label these eigenstates |a,a) where a is the eigenvalue of A and a is an
+
+additional label needed to resolve the degeneracy, thus
+Ala,a) = ax |a,a) (153)
+Then for any operator B which commutes with A
+(a,a|Bla’,a’) = 0 unless a=a', (154)
+
+but.
+
+(a,a| B|same a, different a’) 4 0 is OK. (155)
+
+In other words, in the eigenbasis of A, the matrix of B is block-diagonal, for example
+
+a 0 0 0 0 0 0 0 * 000 00 0 0
+
+0 a 0 0 0 0 0 0 O* « 000 0 0
+
+0 0 a 0 0 0 0 0 O* « 000 0 0
+
+0 0 0 a 0 0 0 0 0 0 0 * 0 0 0 0
+A= 0 0 0 0 a 0 0 0 B=]0 000% * * O-- (156)
+
+0 0 0 0 0 a 0 0 0 0 0 0 * * * 0
+
+0 0 0 0 0 0 a 0 0 0 0 0 * * * 0
+
+0 0 0 0 0 0 0 as 0000 0 0 0 *
+where the stars denote the allowed non-zero matrix elements of B. In terms of (a,q) labels
+of A’s eigenstates, each a corresponds to a diagonal block of B’s matrix, while the matrix
+
+elements within the block are labeled by (a, a’).
+
+31
